@@ -1,3 +1,21 @@
+html {
+    background-color: #81d1ff;
+    height: 100vh;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 #a1 {
     color: green;
 }
@@ -9,4 +27,3 @@
 #a3 {
     color: #ffea00;
     background-color: #000;
-}
