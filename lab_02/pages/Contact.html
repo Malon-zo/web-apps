@@ -1,10 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+    
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="UTF-8" />
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    />
+    <title>My Website</title>
+    <link
+        rel="stylesheet"
+        href="../styles/Shared.css"
+    />
+    <link
+        rel="stylesheet"
+        href="../styles/Projects.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@160..700&display=swap" rel="stylesheet">
 </head>
-<body>
 
+<body class="readex-pro">
+    <header>
+        <nav id="nav-bar">
+            <a id="a2" href="./Projects.html">
+                <div id="nav-bar-item">
+                    Projekty
+                </div>
+            </a>
+            
+            <a id="a3" href="./Gallery.html">
+                <div id="nav-bar-item">
+                    Galeria
+                </div>
+            </a>
+            
+            <a id="a1" href="../index.html">
+                <div id="nav-bar-item">
+                    Strona Główna
+                </div>
+            </a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <form>
+                <div>
+                    <label for="email">Email</label><br>
+                    <input id="email" name="email" type="email" placeholder="your_mail@domain"/>
+                </div>
+                
+                <div>
+                    <label for="topic">Temat</label><br>
+                    <select name="topic" id="topic">
+                        <option value="1">Współpraca</option>
+                        <option value="2">Koło naukowe</option>
+                        <option value="3">Inne</option>
+                    </select>
+                </div>
+                
+                <div>
+                    <label for="message">Treść wiadomości</label><br>
+                    <textarea name="message" id="message" cols="50" rows="10"></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Wyślij</button>
+                </div>
+                
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <h4>Filip Flak</h4>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
