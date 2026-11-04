@@ -1,0 +1,15 @@
+img, video {
+    width: 24rem;
+    height: 16rem;
+}
+
+#main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img, video {
+    margin: 1rem;
+    box-shadow: 0.2rem 0.2rem 0 #a1a1b4;
+}
